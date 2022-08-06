@@ -14,4 +14,6 @@ touch .env
 touch .env.example
 npm install typescript ts-node nodemon mocha chai eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/node --save-dev
 npm install prisma
+npx prisma init
+npx prisma db push
 ```
